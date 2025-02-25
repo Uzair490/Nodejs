@@ -8,11 +8,10 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
-    "client": "npm start --prefix ./client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
-  },
+  "start": "node api/server.js",
+  "server": "nodemon api/server.js"
+}
+,
   "keywords": [],
   "author": "Techinfoyt",
   "license": "MIT",
